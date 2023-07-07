@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OPEN AND CLOSE POP UPS WITH BUTTONS</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</head>
+<body>
+    <button class="homebtn mt-2 ms-2 btn btn-primary d-flex justify-content-center align-items-center" style="height:30px;">Home</button>
+    <button class="profilebtn mt-2 ms-2 btn btn-primary d-flex justify-content-center align-items-center" style="height:30px;">Profile</button>
+    <button class="savedbtn mt-2 ms-2 btn btn-primary d-flex justify-content-center align-items-center" style="height:30px;">Saved</button>
+    <button class="contactbtn mt-2 ms-2 btn btn-primary d-flex justify-content-center align-items-center" style="height:30px;">Contact</button>
+
+    <h1 class="title">PRACTICING CSS AND JQUERY</h1>
+    <p class="title">Click buttons to see boxes with text</p>
+    <div class="divs" id="profile">
+        
+        <h1>PROFİLE</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu eleifend felis. Integer dignissim commodo turpis a fringilla. Mauris at urna quis mauris vulputate iaculis et eu risus. In lacus massa, tempus eget venenatis dapibus, feugiat et sapien. Aliquam sodales enim nulla, eu porttitor ante accumsan vitae. Sed rutrum varius massa id fermentum. Proin massa quam, lacinia non vulputate id, dapibus vitae sapien. Proin nec libero tristique, blandit risus in, dapibus odio.
+
+Etiam eu tempus felis. Morbi et porttitor neque, non pretium nibh. Donec sed maximus metus. Nunc lorem nibh, cursus vestibulum tincidunt et, faucibus at ante. Aliquam interdum leo at lectus mattis, quis eleifend dolor laoreet. Mauris ac leo sit amet lectus laoreet sodales at eu arcu. Cras risus mauris, cursus semper fermentum sed, commodo dictum nulla. Morbi auctor ut augue ut convallis. Mauris sed elit tincidunt, viverra arcu quis, blandit lacus. Ut sed dolor libero. Proin finibus imperdiet augue, nec scelerisque velit scelerisque vitae. Fusce pulvinar lorem nec consequat sollicitudin. Nam vel cursus magna, ut malesuada lacus. Praesent id nisl blandit, faucibus nulla vitae, ornare nunc. Duis maximus nunc at sapien imperdiet, ac laoreet nisi ultricies.
+        </p>
+
+        <button class="kapat btn btn-primary">Close</button>
+    
+    </div>
+    
+    <div class="divs" id="saved">
+        
+        <h1>SAVED</h1>
+        <p>
+            Morbi elementum blandit quam. Praesent egestas vehicula tempor. Nunc ac massa velit. Fusce pharetra lacus id nisl interdum iaculis. Vivamus dolor ipsum, aliquet faucibus dignissim eget, vehicula sit amet urna. Phasellus ullamcorper, libero a volutpat sollicitudin, lacus felis fermentum erat, at imperdiet mauris ipsum at dui. Vestibulum ipsum enim, consectetur at tortor nec, pulvinar venenatis metus. Duis pellentesque tortor ipsum, sit amet facilisis nulla vehicula et. Nullam porttitor, urna vitae maximus rhoncus, felis augue faucibus arcu, nec aliquet leo tortor eget ante. Sed gravida a massa nec placerat. Maecenas eu lacus neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam scelerisque nibh elit, eget mattis mauris semper sit amet. Pellentesque eleifend nisl aliquet felis aliquet, venenatis sodales eros auctor. Pellentesque sollicitudin nisl ut odio venenatis, eu iaculis ligula tincidunt. Ut facilisis porta commodo.
+</p>
+    <button class="kapat btn btn-primary">Close</button>
+    </div>
+
+    <div class="divs" id="contact">
+        
+        <h1>CONTACT</h1>
+    <p>
+
+        Vestibulum facilisis neque vel arcu ultrices, ut gravida libero auctor. Integer nisi velit, lobortis non ante a, eleifend egestas diam. Fusce sed ornare elit. Curabitur eu sem aliquet, feugiat enim a, sagittis sapien. Sed pretium sapien sed sapien lobortis, et aliquet dolor ullamcorper. Curabitur eget iaculis tortor. Fusce ut commodo leo, vitae convallis velit. Proin libero libero, tempor nec diam egestas, placerat dignissim lorem. Proin aliquam odio eget arcu facilisis, non egestas est pulvinar. Praesent tempus augue at condimentum egestas. Sed ornare fermentum purus, eget porta tellus aliquet eu.
+
+Nam vitae dolor rhoncus, volutpat mauris vitae, vestibulum velit. In tempus odio et ex consequat ullamcorper. Pellentesque aliquam purus ultrices purus consectetur tempus. Donec sed libero finibus, eleifend mi in, bibendum ante. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas et rhoncus magna. Mauris urna magna, iaculis vel magna eget, molestie suscipit lacus. Praesent vitae lorem lorem. Vestibulum tincidunt, urna eget euismod euismod, eros leo venenatis quam, ac consequat velit tortor at est. Donec cursus scelerisque fringilla. Phasellus nec viverra massa. Phasellus eget dolor consectetur, consequat nisi eu, efficitur elit.
+
+    </p>
+
+    <button class="kapat btn btn-primary">Close</button>
+    
+    </div>
+
+
+</body>
+
+<script>
+    $(document).ready(function() {
+        $(".divs").hide();
+
+        $(".homebtn").click(function() {
+        $(".divs").hide();
+
+        
+        })
+
+        $(".profilebtn").click(function() {
+        $(".divs").not(this).hide();
+        $("#profile").show();
+        
+        })
+
+        $(".savedbtn").click(function() {
+        $(".divs").not(this).hide();
+        $("#saved").show();
+     
+        })
+
+        $(".contactbtn").click(function() {
+        $(".divs").not(this).hide();
+        $("#contact").show();
+     
+        })
+
+        $(".kapat").click(function() {
+        $(this).parent().hide();
+       
+     
+        })
+
+    });
+</script>
+</html>

@@ -1,0 +1,70 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("images/arkaplan.jpg");
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat;
+    padding: 0px !important;
+    overflow-y: hidden;
+}
+
+h1.title {
+    margin: auto;
+    position: absolute;
+    top:250px;
+    left:50%;
+    transform: translate(-50%);
+    color:#0B5ED7;
+    font-size:70px;
+    letter-spacing:2px;
+    width:80%;
+    filter:drop-shadow(0 0 5px white);
+}
+
+p.title {
+    
+    position: absolute;
+    top:350px;
+    left:50%;
+    transform: translate(-50%);
+    color:#0B5ED7;
+    font-size:15px;
+    letter-spacing:2px;
+    filter:drop-shadow(0 0 5px white);
+}
+
+body,html {
+    height:100% !important;
+    box-sizing: border-box !important;
+}
+
+.divs {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    height:fit-content;
+    width:700px;
+    background-color: lightyellow;
+    box-shadow:0 0 20px black;
+    border-radius:5px;
+    padding:20px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin: auto;
+    margin-top:50px;
+}
+
+p {
+    font-size: 14px;
+    letter-spacing:3px;
+    text-align: justify;
+}
+
+button.kapat {
+    margin: auto;
+    text-align: center !important;
+}
+
